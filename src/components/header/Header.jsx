@@ -10,32 +10,24 @@ const Header = () => {
             <nav>
                 <ul>
                     <li className={styles.home__li}>
-                        <Link to="/">Dance Studio</Link>
+                        <Link to="/">DANCE STUDIO</Link>
                     </li>
 
                     <li className={styles.instructors__li}>
-                        <Link to="/about">Instructors</Link>
+                        <Link to="/about">INSTRUCTORS</Link>
                     </li>
 
 
                     <li className={styles.create__li}>
-                        <Link to="/register">Register</Link>
+                        <Link to="/register">REGISTER</Link>
                       
                     </li>
                     <li  className={styles.create__li2}>
-                    <Link to="/login">Login</Link>
+                    <Link to="/login">LOGIN</Link>
                     </li>
 
                 </ul>
             
-                {/* <video
-            autoPlay
-            loop
-            muted
-            >
-                <source src={ilikeit.mp4}  type="video/mp4"/>
-            </video> */}
-
 
             </nav>
         </header>

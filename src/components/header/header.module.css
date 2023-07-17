@@ -11,8 +11,9 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: black;
-    font-weight: 500;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .home__li {

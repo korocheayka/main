@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './homepage.module.css'
-import ilikeit from "/video/ilikeit.mp4"
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
         <>
-        <section>
-        <video
+        <section className={styles.video__section}>
+            <div className={styles.container}>
+            <video
             autoPlay
             loop
             muted
@@ -21,11 +22,37 @@ const HomePage = () => {
                 zIndex: "-1"
             }}
             >
-                <source src={ilikeit}  type="video/mp4"/>
+                <source src="/video/ilikeit.mp4"  type="video/mp4"/>
             </video>
+
+            </div>
+       
         </section>
            
-        
+        <section className={styles.words__section}>
+            <div className={styles.container}>
+            <div className={styles.words__wrapper}>
+                    <div className={styles.words__up}>
+                        <h2>WE DONT NEED </h2>
+
+                    </div>
+                    <div className={styles.words__btw}>
+                        <h1>A STAGE TO DANCE</h1>
+                    </div>
+                    <div className={styles.words__down}>
+                        <Link to="/more">More about us</Link>
+
+                    </div>
+
+
+                </div>
+                
+            </div>
+           
+
+
+            </section>
+
         </>
        
 
@@ -33,3 +60,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+           
