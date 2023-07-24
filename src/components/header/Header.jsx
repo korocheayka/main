@@ -5,7 +5,7 @@ import styles from './header.module.css'
 
 const Header = () => {
     return (
-        <header>
+        <header style={{ position: 'absolute', top: '-10px', zIndex: 1 }}>
            
             <nav>
                 <ul>
@@ -14,7 +14,7 @@ const Header = () => {
                     </li>
 
                     <li className={styles.instructors__li}>
-                        <Link to="/about">INSTRUCTORS</Link>
+                        <Link to="/instructors">INSTRUCTORS</Link>
                     </li>
 
 
