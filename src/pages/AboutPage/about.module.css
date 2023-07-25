@@ -1,0 +1,50 @@
+.section_1{
+background-image: url("https://emag.archiexpo.com/wp-content/uploads/sites/7/KWON50901.jpg");
+    display: flex;
+    
+}
+
+.upgrade__wrapper{
+    height: 1100px;
+   
+   
+}
+.upgrade__wrapper h1{
+    padding-top: 200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    font-size: 150px;
+    padding-right: 200px;
+    color: white;
+   
+}
+.upgrade__wrapper h2{
+    justify-content: end;
+    color: white;
+    padding-left: 150px;
+    font-size: 150px;
+}
+
+  
+.moving__text {
+    position: absolute;
+    top: 22%;
+   /* Начальное положение текста */
+   display: flex;
+   flex-direction: row-reverse;
+    animation: moveText 4s linear infinite; /* Имя анимации, продолжительность, тип и бесконечное повторение */
+  }
+  
+  @keyframes moveText {
+    0% {
+      left: 0; /* Начальное положение текста */
+    }
+    100% {
+      left: 10%; /* Конечное положение текста (100% от ширины родительского контейнера) */
+    }
+  }
+  .every__wrapper{
+   display: flex;
+  }

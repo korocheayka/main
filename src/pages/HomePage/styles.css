@@ -2,7 +2,7 @@
     height: 800px; 
     width: 100%; 
     padding-top: 100px; 
-    background-color: black; 
+    background-color: rgb(228, 54, 54); 
      
     } 
      
@@ -10,7 +10,7 @@
     .text-wrapper{ 
         text-align: center; 
         padding-top: 80px; 
-        background-color: black; 
+        background-color: rgb(228, 54, 54); 
         font-size: 100px; 
         color: white; 
     } 

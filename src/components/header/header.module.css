@@ -14,7 +14,8 @@ padding-top: 30px;
 list-style: none; 
 justify-content: space-between; 
 column-gap: 100px; 
-width: 100%; 
+width: 900px; 
+text-align: center;
 } 
 li{ 
     justify-content: space-between; 
@@ -28,6 +29,16 @@ ul li a{
     font-weight: 800; 
     font-size: 25px; 
 } 
-.create__li{ 
-    justify-content: center; 
+.create__li a{ 
+    justify-content: end; 
 }
+
+  a:focus {
+    background-color: red; 
+    border: 2px solid #f10b0b; 
+    border-radius: 50px; 
+  }
+ 
+
+  
+  
